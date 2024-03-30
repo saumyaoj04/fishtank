@@ -9,11 +9,10 @@ android {
 
     defaultConfig {
         applicationId = "com.example.ecell"
-        minSdk = 25
+        minSdk = 21
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
-
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -34,18 +33,20 @@ android {
         jvmTarget = "1.8"
     }
     buildFeatures{
-        viewBinding=true
-
+        viewBinding = true
+        dataBinding = true
     }
 }
 
 dependencies {
 
-    implementation("androidx.core:core-ktx:1.9.0")
+    implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.11.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+    api("tk.zielony:carbon:0.16.0.1")
+
 }
