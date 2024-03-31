@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Ecell"
         tools:targetApi="31">
         <activity
+            android:name=".onBoard2"
+            android:exported="false" />
+        <activity
+            android:name=".onBoard"
+            android:exported="false" />
+        <activity
             android:name=".signupAct"
             android:exported="false" />
         <activity

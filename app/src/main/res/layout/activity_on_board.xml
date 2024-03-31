@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carbon.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".onBoard">
+
+    <carbon.widget.ImageView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/onboard1" />
+
+    <carbon.widget.TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Join Us for a Decade of Memories"
+        android:fontFamily="@font/main_font_bold"
+        android:layout_gravity="center"
+        android:textSize="19sp"
+        android:textColor="@color/black"/>
+    <carbon.widget.TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Our 10th Anniversary Celebration!"
+        android:fontFamily="@font/main_font_bold"
+        android:layout_gravity="center"
+        android:textSize="19sp"
+        android:textColor="@color/black"/>
+    <carbon.widget.TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Step into a decade of memories and "
+        android:fontFamily="@font/main_font"
+        android:layout_gravity="center"
+        android:textSize="19sp"
+        android:paddingTop="10dp"
+        android:textColor="@color/black"/>
+    <carbon.widget.TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="milestones with us as we celebrate our "
+        android:fontFamily="@font/main_font"
+        android:layout_gravity="center"
+        android:textSize="19sp"
+        android:textColor="@color/black"/>
+    <carbon.widget.TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10th Anniversary "
+        android:fontFamily="@font/main_font"
+        android:layout_gravity="center"
+        android:textSize="19sp"
+        android:textColor="@color/black"/>
+    <carbon.widget.TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We're thrilled to have you join us for  "
+        android:fontFamily="@font/main_font"
+        android:layout_gravity="center"
+        android:textSize="19sp"
+        android:textColor="@color/black"/>
+    <carbon.widget.TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="this special ocassion  "
+        android:fontFamily="@font/main_font"
+        android:layout_gravity="center"
+        android:textSize="19sp"
+        android:textColor="@color/black"/>
+
+    <carbon.widget.RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_margin="16dp"
+        android:background="#3B53D5"
+        android:gravity="center"
+        android:layout_gravity="center"
+        app:carbon_cornerRadius="10dp"
+        app:carbon_stroke="#1E2B71"
+        app:carbon_strokeWidth="2dp">
+        <carbon.widget.TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Next"
+            android:textColor="@color/white"
+            android:textSize="24sp"/>
+    </carbon.widget.RelativeLayout>
+
+
+</carbon.widget.LinearLayout>
