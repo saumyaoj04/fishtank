@@ -50,5 +50,6 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
     api("tk.zielony:carbon:0.16.0.1")
+    implementation ("com.daimajia.androidanimations:library:2.4@aar")
 
 }

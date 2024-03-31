@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carbon.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".activity.userlogin">
+    <carbon.widget.RelativeLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:paddingTop="90dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="4dp">
+        <carbon.widget.LinearLayout
+            android:id="@+id/hellAgn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <carbon.widget.TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:fontFamily="@font/main_font_bold"
+                android:text="Hello Again!"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+        </carbon.widget.LinearLayout>
+        <carbon.widget.LinearLayout
+            android:id="@+id/profAgn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <carbon.widget.ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="40dp"
+                android:background="@color/lightBlue"
+                android:src="@drawable/women"
+                app:carbon_cornerRadius="30dp" />
+        </carbon.widget.LinearLayout>
+    </carbon.widget.RelativeLayout>
+    <carbon.widget.TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/main_font_bold"
+        android:text="Welcome Back You've"
+        android:textColor="@color/carbon_grey_500"
+        android:textSize="20sp" />
+    <carbon.widget.TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/main_font_bold"
+        android:text="been missed!!"
+        android:textColor="@color/carbon_grey_500"
+        android:textSize="20sp" />
+
+    <carbon.widget.RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="16dp"
+        android:background="@color/lightBlue"
+        android:paddingStart="20dp"
+        app:carbon_cornerRadius="18dp"
+        app:carbon_stroke="#888787"
+        app:carbon_strokeWidth="2dp">
+
+        <carbon.widget.TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/main_font"
+            android:paddingTop="10dp"
+            android:text="username@gmail.com"
+            android:textColor="#636363"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <carbon.widget.ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="308dp"
+            android:src="@drawable/emailicn"
+            app:carbon_cornerRadius="25dp" />
+    </carbon.widget.RelativeLayout>
+
+    <carbon.widget.RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="16dp"
+        android:background="@color/lightBlue"
+        android:paddingStart="20dp"
+        app:carbon_cornerRadius="18dp"
+        app:carbon_stroke="#888787"
+        app:carbon_strokeWidth="2dp">
+
+        <carbon.widget.TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/main_font"
+            android:paddingTop="10dp"
+            android:text="password"
+            android:textColor="#636363"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <carbon.widget.ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="308dp"
+            android:src="@drawable/pswdicn"
+            app:carbon_cornerRadius="25dp" />
+
+        <carbon.widget.ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="12dp"
+            android:src="@drawable/eye"
+            app:carbon_cornerRadius="25dp" />
+    </carbon.widget.RelativeLayout>
+    <carbon.widget.TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+
+    <carbon.widget.RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="16dp"
+        android:background="#3B53D5"
+        android:gravity="center"
+        android:paddingStart="20dp"
+        app:carbon_cornerRadius="18dp"
+        app:carbon_stroke="#1E2B71"
+        app:carbon_strokeWidth="2dp">
+
+        <carbon.widget.TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/main_font_bold"
+            android:text="Sign In"
+            android:textColor="@color/white"
+            android:textSize="24dp"/>
+    </carbon.widget.RelativeLayout>
+    <carbon.widget.RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="16dp"
+        android:background="@color/lightBlue"
+        android:paddingStart="20dp"
+        app:carbon_cornerRadius="18dp"
+        app:carbon_stroke="#888787"
+        app:carbon_strokeWidth="2dp">
+        <carbon.widget.TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/main_font"
+            android:paddingTop="10dp"
+            android:text="Sign In With Google"
+            android:textColor="#636363"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <carbon.widget.ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="308dp"
+            android:src="@drawable/google"
+            app:carbon_cornerRadius="25dp" />
+    </carbon.widget.RelativeLayout>
+
+    <carbon.widget.LinearLayout
+        android:id="@+id/sgnUp"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't Have an Account?" />
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textStyle="bold"
+            android:textColor="#3B53D5"/>
+    </carbon.widget.LinearLayout>
+
+</carbon.widget.LinearLayout>

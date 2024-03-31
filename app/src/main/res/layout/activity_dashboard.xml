@@ -259,5 +259,79 @@
         </carbon.widget.LinearLayout>
 
     </HorizontalScrollView>
+    <carbon.widget.TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text1"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/main_font_bold"
+        android:text="Markets "
+        android:textColor="@color/black"
+        android:paddingTop="5dp"
+        android:textSize="28sp" />
+    <carbon.widget.RelativeLayout
+                android:id="@+id/text02"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="16dp"
+                android:background="#F1F0F0"
+                android:paddingStart="10dp"
+                app:carbon_cornerRadius="18dp">
+
+                <carbon.widget.TextView
+                    android:id="@+id/text01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="75dp"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/main_font_bold"
+                    android:text="USTD"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <carbon.widget.TextView
+                    android:id="@+id/text0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="75dp"
+                    android:layout_marginTop="35dp"
+                    android:fontFamily="@font/main_font_bold"
+                    android:text="Tether"
+                    android:textColor="@color/carbon_grey_500"
+                    android:textSize="16sp" />
+
+                <carbon.widget.ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="308dp"
+                    android:src="@drawable/ic_bitcoin"
+                    app:carbon_cornerRadius="25dp" />
+
+                <carbon.widget.TextView
+                    android:id="@+id/text03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="300dp"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/main_font_bold"
+                    android:text="$34.05"
+                    android:textColor="@color/black"
+                    android:textSize="16dp" />
+
+                <carbon.widget.TextView
+                    android:id="@+id/text04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="300dp"
+                    android:layout_marginTop="35dp"
+                    android:fontFamily="@font/main_font_bold"
+                    android:text="+0.02%"
+                    android:textColor="#1ADD22"
+                    android:textSize="16dp" />
+            </carbon.widget.RelativeLayout>
+
+
 
 </carbon.widget.LinearLayout>
