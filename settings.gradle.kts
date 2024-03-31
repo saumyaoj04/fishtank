@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ecell"
+rootProject.name = "Fish Tank Event"
 include(":app")
  

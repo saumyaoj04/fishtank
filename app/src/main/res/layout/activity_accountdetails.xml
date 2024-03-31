@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:backgroundTint="#D34040"
-    tools:context=".accountdetails">
+    tools:context=".activity.AccountDetailsActivity">
 
     <ImageView
         android:id="@+id/imageView4"
