@@ -56,26 +56,26 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:fontFamily="@font/main_font_bold"
+        android:layout_marginBottom="30dp"
         android:text="been missed!!"
         android:textColor="@color/carbon_grey_500"
         android:textSize="20sp" />
 
     <carbon.widget.RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="50dp"
         android:layout_margin="16dp"
         android:background="@color/lightBlue"
         android:paddingStart="20dp"
-        app:carbon_cornerRadius="18dp"
-        app:carbon_stroke="#888787"
+        app:carbon_cornerRadius="10dp"
+        app:carbon_stroke="#CCCCCC"
         app:carbon_strokeWidth="2dp">
 
         <carbon.widget.TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginLeft="70dp"
-            android:layout_marginTop="15dp"
+            android:layout_marginLeft="60dp"
             android:fontFamily="@font/main_font"
             android:paddingTop="10dp"
             android:text="username@gmail.com"
@@ -84,31 +84,29 @@
             android:textStyle="bold" />
 
         <carbon.widget.ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="308dp"
-            android:src="@drawable/emailicn"
-            app:carbon_cornerRadius="25dp" />
+            android:layout_marginEnd="335dp"
+            android:src="@drawable/emailicn" />
     </carbon.widget.RelativeLayout>
 
     <carbon.widget.RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="50dp"
         android:layout_margin="16dp"
         android:background="@color/lightBlue"
         android:paddingStart="20dp"
-        app:carbon_cornerRadius="18dp"
-        app:carbon_stroke="#888787"
+        app:carbon_cornerRadius="10dp"
+        app:carbon_stroke="#CCCCCC"
         app:carbon_strokeWidth="2dp">
 
         <carbon.widget.TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginLeft="70dp"
-            android:layout_marginTop="15dp"
+            android:layout_marginLeft="60dp"
             android:fontFamily="@font/main_font"
             android:paddingTop="10dp"
             android:text="password"
@@ -117,39 +115,41 @@
             android:textStyle="bold" />
 
         <carbon.widget.ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="308dp"
-            android:src="@drawable/pswdicn"
-            app:carbon_cornerRadius="25dp" />
+            android:layout_marginEnd="335dp"
+            android:src="@drawable/pswdicn" />
 
         <carbon.widget.ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
             android:layout_marginTop="15dp"
             android:layout_marginEnd="12dp"
-            android:src="@drawable/eye"
-            app:carbon_cornerRadius="25dp" />
+            android:src="@drawable/eye"/>
     </carbon.widget.RelativeLayout>
     <carbon.widget.TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="28dp"
         android:text="Forgot Password?"
+        android:textSize="16sp"
         android:layout_gravity="center"
         android:textStyle="bold"/>
 
     <carbon.widget.RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="50dp"
         android:layout_margin="16dp"
         android:background="#3B53D5"
         android:gravity="center"
         android:paddingStart="20dp"
-        app:carbon_cornerRadius="18dp"
-        app:carbon_stroke="#1E2B71"
+        app:carbon_cornerRadius="10dp"
+        app:carbon_stroke="#3043AA"
         app:carbon_strokeWidth="2dp">
 
         <carbon.widget.TextView
@@ -158,23 +158,23 @@
             android:fontFamily="@font/main_font_bold"
             android:text="Sign In"
             android:textColor="@color/white"
-            android:textSize="24dp"/>
+            android:textSize="24dp" />
     </carbon.widget.RelativeLayout>
+
     <carbon.widget.RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="50dp"
         android:layout_margin="16dp"
-        android:background="@color/lightBlue"
+        android:background="#ffffff"
         android:paddingStart="20dp"
-        app:carbon_cornerRadius="18dp"
-        app:carbon_stroke="#888787"
+        app:carbon_cornerRadius="10dp"
+        app:carbon_stroke="#CCCCCC"
         app:carbon_strokeWidth="2dp">
         <carbon.widget.TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginLeft="70dp"
-            android:layout_marginTop="15dp"
+            android:layout_marginLeft="90dp"
             android:fontFamily="@font/main_font"
             android:paddingTop="10dp"
             android:text="Sign In With Google"
@@ -182,31 +182,42 @@
             android:textSize="20sp"
             android:textStyle="bold" />
         <carbon.widget.ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="308dp"
-            android:src="@drawable/google"
-            app:carbon_cornerRadius="25dp" />
+            android:layout_marginEnd="335dp"
+            android:src="@drawable/google"/>
     </carbon.widget.RelativeLayout>
+    <carbon.widget.TextView
+        android:id="@+id/textView013"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="20dp"
+        android:text="Or" />
 
     <carbon.widget.LinearLayout
         android:id="@+id/sgnUp"
-        android:layout_width="200dp"
+        android:layout_width="270dp"
         android:layout_gravity="center"
         android:layout_height="wrap_content">
-        <TextView
+        <carbon.widget.TextView
             android:id="@+id/textView9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="18sp"
             android:text="Don't Have an Account?" />
-        <TextView
+        <carbon.widget.TextView
             android:id="@+id/textView12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Sign Up"
             android:textStyle="bold"
+            android:textSize="18sp"
             android:textColor="#3B53D5"/>
     </carbon.widget.LinearLayout>
 

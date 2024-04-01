@@ -12,7 +12,7 @@
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_gravity="center"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="100dp"
         android:src="@drawable/women"
         android:background="@color/carbon_grey_400"
         app:carbon_cornerRadius="60dp"/>
@@ -43,24 +43,24 @@
         android:fontFamily="@font/main_font"
         android:text="Sign up now to start exploring."
         android:textColor="#6A6565"
+        android:layout_marginBottom="30dp"
         android:textSize="16sp"
         android:textStyle="bold" />
     <carbon.widget.RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="50dp"
         android:layout_margin="16dp"
         android:background="@color/lightBlue"
         android:paddingStart="20dp"
-        app:carbon_cornerRadius="18dp"
-        app:carbon_stroke="#888787"
+        app:carbon_cornerRadius="10dp"
+        app:carbon_stroke="#cccccc"
         app:carbon_strokeWidth="2dp">
 
         <carbon.widget.TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginLeft="70dp"
-            android:layout_marginTop="15dp"
+            android:layout_marginLeft="60dp"
             android:fontFamily="@font/main_font"
             android:paddingTop="10dp"
             android:text="Sign Up with E-mail"
@@ -69,38 +69,39 @@
             android:textStyle="bold" />
 
         <carbon.widget.ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="308dp"
-            android:src="@drawable/emailicn"
-            app:carbon_cornerRadius="25dp" />
+            android:layout_marginEnd="335dp"
+            android:src="@drawable/emailicn" />
     </carbon.widget.RelativeLayout>
 
     <carbon.widget.TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="16sp"
         android:text="Or use instant Signup"
         android:textStyle="bold" />
 
     <carbon.widget.RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="50dp"
         android:layout_margin="16dp"
-        android:background="#F1F0F0"
+        android:background="#ffffff"
         android:paddingStart="20dp"
-        app:carbon_cornerRadius="18dp"
-        app:carbon_stroke="#888787"
+        app:carbon_cornerRadius="10dp"
+        app:carbon_stroke="#cccccc"
         app:carbon_strokeWidth="2dp">
 
         <carbon.widget.TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginLeft="70dp"
-            android:layout_marginTop="15dp"
+            android:layout_marginLeft="90dp"
             android:fontFamily="@font/main_font"
             android:paddingTop="10dp"
             android:text="Sign Up With Google"
@@ -109,26 +110,26 @@
             android:textStyle="bold" />
 
         <carbon.widget.ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="308dp"
-            android:src="@drawable/google"
-            app:carbon_cornerRadius="25dp" />
+            android:layout_marginEnd="335dp"
+            android:src="@drawable/google" />
     </carbon.widget.RelativeLayout>
     <carbon.widget.LinearLayout
         android:id="@+id/sgnUp"
         android:layout_width="270dp"
         android:layout_gravity="center"
+        android:layout_marginTop="30dp"
         android:layout_height="wrap_content">
-        <TextView
+        <carbon.widget.TextView
             android:id="@+id/textView013"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="18sp"
             android:text="Already Have an Account?" />
-        <TextView
+        <carbon.widget.TextView
             android:id="@+id/textView012"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
