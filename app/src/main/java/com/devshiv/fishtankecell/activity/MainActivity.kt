@@ -1,9 +1,9 @@
-package com.example.ecell.activity
+package com.devshiv.fishtankecell.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.RecyclerView
-import com.example.ecell.R
+import com.devshiv.fishtankecell.R
 
 class MainActivity : AppCompatActivity() {
 

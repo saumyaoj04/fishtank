@@ -1,12 +1,13 @@
-package com.example.ecell.activity
+
+package com.devshiv.fishtankecell.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.ecell.R
+import com.devshiv.fishtankecell.R
 
-class userlogin : AppCompatActivity() {
+class UserActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_userlogin)
+        setContentView(R.layout.activity_user)
     }
 }

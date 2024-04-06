@@ -1,11 +1,11 @@
-package com.example.ecell
+package com.devshiv.fishtankecell.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class signupAct : AppCompatActivity() {
+class AccountDetailsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_signup)
+//        setContentView(R.layout.activity_accountdetails)
     }
 }

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "652773190985",
+    "project_id": "fish-tank-e-cell-app",
+    "storage_bucket": "fish-tank-e-cell-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652773190985:android:be579c449f87d8b2a57e98",
+        "android_client_info": {
+          "package_name": "com.devshiv.fishtankecell"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGxInFAcDrVzGBerHGBEsnfARdCa9HxQI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -16,7 +16,7 @@
             android:name=".onBoard2"
             android:exported="false" />
         <activity
-            android:name=".onBoard"
+            android:name=".activity.OnBoardActivity"
             android:exported="false" />
         <activity
             android:name=".signupAct"
@@ -42,6 +42,7 @@
         <activity
             android:name=".activity.MainActivity"
             android:exported="false" />
+        <activity android:name="com.devshiv.fishtankecell.activity.LoginActivity" />
     </application>
 
 </manifest>

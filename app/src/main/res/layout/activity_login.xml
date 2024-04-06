@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carbon.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".activity.LoginActivity">
+
+    <carbon.widget.LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomLayout"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <carbon.widget.LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <carbon.widget.ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/app_icon"
+                app:carbon_cornerRadius="20dp" />
+
+            <carbon.widget.TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/main_font_bold"
+                android:text="Hello Again!"
+                android:textColor="@color/black"
+                android:textSize="26sp" />
+
+        </carbon.widget.LinearLayout>
+
+        <carbon.widget.TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:fontFamily="@font/main_font_bold"
+            android:gravity="center"
+            android:text="Welcome Back, You've been missed!!"
+            android:textColor="@color/carbon_grey_600"
+            android:textSize="16sp" />
+
+        <carbon.widget.LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp"
+            android:background="@color/colorPrimaryLightest"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:carbon_cornerRadius="14dp"
+            app:carbon_elevation="4dp"
+            app:carbon_elevationShadowColor="@color/black"
+            app:carbon_stroke="@color/colorPrimaryDark"
+            app:carbon_strokeWidth="2dp">
+
+            <carbon.widget.ImageView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:padding="18dp"
+                android:src="@drawable/emailicn"
+                app:carbon_tint="@color/colorPrimaryDark" />
+
+            <carbon.widget.EditText
+                android:id="@+id/emailET"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimaryLightest"
+                android:fontFamily="@font/main_font"
+                android:hint="username@gmail.com"
+                android:paddingStart="2dp"
+                android:paddingEnd="12dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </carbon.widget.LinearLayout>
+
+        <carbon.widget.LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="20dp"
+            android:background="@color/colorPrimaryLightest"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:carbon_cornerRadius="14dp"
+            app:carbon_elevation="4dp"
+            app:carbon_elevationShadowColor="@color/black"
+            app:carbon_stroke="@color/colorPrimaryDark"
+            app:carbon_strokeWidth="2dp">
+
+            <carbon.widget.ImageView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:padding="18dp"
+                android:src="@drawable/pswdicn"
+                app:carbon_tint="@color/colorPrimaryDark" />
+
+            <com.scottyab.showhidepasswordedittext.ShowHidePasswordEditText
+                android:id="@+id/passwordET"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimaryLightest"
+                android:fontFamily="@font/main_font"
+                android:hint="abc@123"
+                android:imeOptions="actionDone"
+                android:paddingStart="2dp"
+                android:paddingEnd="12dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:additionalTouchTargetSize="50dp"
+                app:tint_color="@color/colorPrimaryDark" />
+
+        </carbon.widget.LinearLayout>
+
+        <carbon.widget.TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/main_font_bold"
+            android:gravity="end"
+            android:text="Forgot Password?"
+            android:textSize="16sp" />
+
+    </carbon.widget.LinearLayout>
+
+    <carbon.widget.LinearLayout
+        android:id="@+id/bottomLayout"
+        android:paddingBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <carbon.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="22dp"
+            android:background="@color/colorAccent"
+            android:fontFamily="@font/main_font_bold"
+            android:gravity="center"
+            android:text="Sign In"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:carbon_cornerRadius="14dp"
+            app:carbon_elevation="6dp"
+            app:carbon_elevationShadowColor="@color/black" />
+
+        <carbon.widget.LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="22dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center_vertical"
+            app:carbon_cornerRadius="14dp"
+            app:carbon_elevation="6dp"
+            app:carbon_elevationShadowColor="@color/black"
+            app:carbon_stroke="@color/colorPrimaryDark"
+            app:carbon_strokeWidth="2dp">
+
+            <carbon.widget.ImageView
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:padding="14dp"
+                android:src="@drawable/google" />
+
+            <carbon.widget.TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/main_font_bold"
+                android:gravity="center_vertical"
+                android:text="Sign In With Google"
+                android:textColor="@color/carbon_grey_800"
+                android:textSize="18sp" />
+
+        </carbon.widget.LinearLayout>
+
+        <carbon.widget.TextView
+            android:id="@+id/textView013"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:text="Or"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <carbon.widget.LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <carbon.widget.TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/main_font_bold"
+                android:text="Don't Have an Account?"
+                android:textSize="16sp" />
+
+            <carbon.widget.TextView
+                android:id="@+id/signUpTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:fontFamily="@font/main_font_bold"
+                android:text="Sign Up"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </carbon.widget.LinearLayout>
+
+    </carbon.widget.LinearLayout>
+
+</carbon.widget.RelativeLayout>

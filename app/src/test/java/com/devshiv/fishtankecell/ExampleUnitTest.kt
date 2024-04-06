@@ -1,4 +1,4 @@
-package com.example.ecell
+package com.devshiv.fishtankecell
 
 import org.junit.Test
 

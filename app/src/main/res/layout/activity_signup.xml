@@ -88,6 +88,7 @@
         android:textStyle="bold" />
 
     <carbon.widget.RelativeLayout
+        android:id="@+id/signUpWithGoogle"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_margin="16dp"
