@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carbon.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_marginStart="17dp"
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginEnd="17dp"
+    android:background="@color/lightBlue"
+    android:orientation="vertical"
+    app:carbon_cornerRadius="18dp"
+    app:carbon_elevation="4dp"
+    app:carbon_elevationShadowColor="@color/black"
+    app:carbon_rippleColor="@color/colorAccent"
+    app:carbon_rippleStyle="over">
+
+    <carbon.widget.ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@color/lightPurple" />
+
+    <carbon.widget.TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent_50"
+        android:fontFamily="@font/main_font_bold"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="BTC"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <carbon.widget.TextView
+        android:id="@+id/startDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/transparent_25"
+        android:fontFamily="@font/main_font_bold"
+        android:gravity="center"
+        android:paddingStart="8dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="4dp"
+        android:text="dd-mm-yyyy hh:mm:ss"
+        android:textColor="@color/carbon_green_600"
+        android:textSize="13sp"
+        app:carbon_cornerRadius="10dp" />
+
+</carbon.widget.RelativeLayout>

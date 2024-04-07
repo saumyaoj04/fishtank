@@ -10,11 +10,11 @@
     tools:context=".activity.LoginActivity">
 
     <carbon.widget.LinearLayout
-        android:gravity="center_vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/bottomLayout"
         android:layout_alignParentTop="true"
+        android:gravity="center_vertical"
         android:orientation="vertical">
 
         <carbon.widget.LinearLayout
@@ -138,17 +138,18 @@
             android:fontFamily="@font/main_font_bold"
             android:gravity="end"
             android:text="Forgot Password?"
+            android:textColor="@color/carbon_grey_600"
             android:textSize="16sp" />
 
     </carbon.widget.LinearLayout>
 
     <carbon.widget.LinearLayout
         android:id="@+id/bottomLayout"
-        android:paddingBottom="20dp"
-        android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:paddingBottom="20dp">
 
         <carbon.widget.Button
             android:layout_width="match_parent"
@@ -210,6 +211,7 @@
             android:layout_marginTop="30dp"
             android:layout_marginBottom="30dp"
             android:text="Or"
+            android:textColor="@color/carbon_grey_600"
             android:textSize="16sp"
             android:textStyle="bold" />
 
@@ -223,6 +225,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/main_font_bold"
                 android:text="Don't Have an Account?"
+                android:textColor="@color/carbon_grey_600"
                 android:textSize="16sp" />
 
             <carbon.widget.TextView
@@ -234,7 +237,9 @@
                 android:text="Sign Up"
                 android:textColor="@color/colorAccent"
                 android:textSize="16sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                app:carbon_rippleColor="@color/colorAccent"
+                app:carbon_rippleStyle="background" />
 
         </carbon.widget.LinearLayout>
 

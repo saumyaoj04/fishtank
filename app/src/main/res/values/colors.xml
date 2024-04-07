@@ -12,9 +12,10 @@
     <color name="black">#0B0A0A</color>
     <color name="lightBlack">#171515</color>
 
-    <color name="transparent_75">#40FFFFFF</color>
-    <color name="transparent_50">#80FFFFFF</color>
-    <color name="transparent_100">#00FFFFFF</color>
+    <color name="transparent_75">#40000000</color>
+    <color name="transparent_25">#BF000000</color>
+    <color name="transparent_50">#80000000</color>
+    <color name="transparent_100">#00000000</color>
 
     <color name="lightBlue">#EEF2FE</color>
     <color name="lightOrange">#FEF4EA</color>

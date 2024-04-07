@@ -5,35 +5,35 @@ import com.devshiv.fishtankecell.utils.Variables
 
 object SharedPrefsManager {
 
-    fun getName(context: Context): String? {
-        return context.getSharedPreferences(Variables.SHARED_PREFS, Context.MODE_PRIVATE)
-            .getString(Variables.NAME_FB_TAG, "")
-    }
-
-    fun setName(context: Context, token: String?) {
-        context.getSharedPreferences(Variables.SHARED_PREFS, Context.MODE_PRIVATE).edit()
-            .putString(Variables.NAME_FB_TAG, token).apply()
-    }
-
-    fun getEmail(context: Context): String? {
-        return context.getSharedPreferences(Variables.SHARED_PREFS, Context.MODE_PRIVATE)
-            .getString(Variables.EMAIL_FB_TAG, "")
-    }
-
-    fun setEmail(context: Context, token: String?) {
-        context.getSharedPreferences(Variables.SHARED_PREFS, Context.MODE_PRIVATE).edit()
-            .putString(Variables.EMAIL_FB_TAG, token).apply()
-    }
-
-    fun getPassword(context: Context): String? {
-        return context.getSharedPreferences(Variables.SHARED_PREFS, Context.MODE_PRIVATE)
-            .getString(Variables.PASSWORD_FB_TAG, "")
-    }
-
-    fun setPassword(context: Context, token: String?) {
-        context.getSharedPreferences(Variables.SHARED_PREFS, Context.MODE_PRIVATE).edit()
-            .putString(Variables.PASSWORD_FB_TAG, token).apply()
-    }
+//    fun getName(context: Context): String? {
+//        return context.getSharedPreferences(Variables.SHARED_PREFS, Context.MODE_PRIVATE)
+//            .getString(Variables.NAME_FB_TAG, "")
+//    }
+//
+//    fun setName(context: Context, token: String?) {
+//        context.getSharedPreferences(Variables.SHARED_PREFS, Context.MODE_PRIVATE).edit()
+//            .putString(Variables.NAME_FB_TAG, token).apply()
+//    }
+//
+//    fun getEmail(context: Context): String? {
+//        return context.getSharedPreferences(Variables.SHARED_PREFS, Context.MODE_PRIVATE)
+//            .getString(Variables.EMAIL_FB_TAG, "")
+//    }
+//
+//    fun setEmail(context: Context, token: String?) {
+//        context.getSharedPreferences(Variables.SHARED_PREFS, Context.MODE_PRIVATE).edit()
+//            .putString(Variables.EMAIL_FB_TAG, token).apply()
+//    }
+//
+//    fun getPassword(context: Context): String? {
+//        return context.getSharedPreferences(Variables.SHARED_PREFS, Context.MODE_PRIVATE)
+//            .getString(Variables.PASSWORD_FB_TAG, "")
+//    }
+//
+//    fun setPassword(context: Context, token: String?) {
+//        context.getSharedPreferences(Variables.SHARED_PREFS, Context.MODE_PRIVATE).edit()
+//            .putString(Variables.PASSWORD_FB_TAG, token).apply()
+//    }
 
     fun getLoginStatus(context: Context): Boolean {
         return context.getSharedPreferences(Variables.SHARED_PREFS, Context.MODE_PRIVATE)

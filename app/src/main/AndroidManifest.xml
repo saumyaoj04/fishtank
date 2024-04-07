@@ -13,13 +13,16 @@
         android:theme="@style/Theme.Ecell"
         tools:targetApi="31">
         <activity
+            android:name=".activity.CaseStudyActivity"
+            android:exported="false" />
+        <activity
             android:name=".onBoard2"
             android:exported="false" />
         <activity
             android:name=".activity.OnBoardActivity"
             android:exported="false" />
         <activity
-            android:name=".signupAct"
+            android:name=".activity.SignUpActivity"
             android:exported="true" />
         <activity
             android:name=".activity.SplashActivity"
@@ -37,12 +40,12 @@
             android:name=".activity.AccountDetailsActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.UserActivity"
+            android:name=".activity.ProfileActivity"
             android:exported="false" />
         <activity
             android:name=".activity.MainActivity"
             android:exported="false" />
-        <activity android:name="com.devshiv.fishtankecell.activity.LoginActivity" />
+        <activity android:name=".activity.LoginActivity" />
     </application>
 
 </manifest>

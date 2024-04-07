@@ -49,7 +49,7 @@ class SplashActivity : AppCompatActivity() {
 
         Handler(Looper.getMainLooper()).postDelayed({
             if (SharedPrefsManager.getLoginStatus(this)) {
-                startActivity(Intent(this@SplashActivity, OnBoardActivity::class.java))
+                startActivity(Intent(this@SplashActivity, MainActivity::class.java))
             } else {
                 if (SharedPrefsManager.getOnBoardStatus(this)) {
                     startActivity(Intent(this@SplashActivity, LoginActivity::class.java))
